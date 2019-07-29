@@ -1,0 +1,34 @@
+{
+  "name": "social-explorer",
+  "version": "0.0.1",
+  "description": "Social explorer module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanma-aguero/social-explorer-module.git"
+  },
+  "authors": [
+    {
+      "name": "Juan Manuel Agüero",
+      "email": "juanma.aguero@gmail.com"
+    }
+  ],
+  "keywords": [
+    "nestjs"
+  ],
+  "peerDependencies": {
+    "@nestjs/common": "^6.0.0",
+    "@nestjs/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^6.0.0",
+    "@nestjs/core": "^6.0.0",
+    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/passport": "^6.1.0",
+    "@nestjs/platform-express": "^6.0.0",
+    "@nestjs/swagger": "^3.0.2",
+    "@nestjs/typeorm": "^6.1.2",
+    "@nestjsx/crud": "^4.0.1",
+    "@nestjsx/crud-typeorm": "^4.0.1"
+  }
+}
